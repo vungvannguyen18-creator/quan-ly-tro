@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /landlord/
+Disallow: /booking/
+Disallow: /chat
+Disallow: /profile
+
+Sitemap: https://timtronhanh.com/sitemap.xml
