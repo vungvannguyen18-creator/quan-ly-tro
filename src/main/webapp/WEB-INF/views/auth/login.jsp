@@ -64,7 +64,7 @@
         <c:remove var="message" scope="session"/>
     </c:if>
 
-    <form action="${pageContext.request.contextPath}/login" method="post">
+    <form action="login" method="post">
         <div class="mb-3">
             <label class="form-label">Email hoặc Tên đăng nhập</label>
             <input type="text" class="form-control" name="email" value="${cookie.userEmail.value}" required placeholder="Nhập email hoặc tên đăng nhập">
@@ -83,7 +83,7 @@
                 <input type="checkbox" class="form-check-input" name="remember" id="remember" ${not empty cookie.userEmail ? 'checked' : ''}>
                 <label class="form-check-label" for="remember">Nhớ mật khẩu</label>
             </div>
-            <a href="${pageContext.request.contextPath}/forgot-password" class="text-decoration-none" style="color: #ff6a00;">Quên mật khẩu?</a>
+            <a href="forgot-password" class="text-decoration-none" style="color: #ff6a00;">Quên mật khẩu?</a>
         </div>
         <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
     </form>
@@ -105,7 +105,7 @@
     </script>
     
     <div class="text-center mt-4">
-        <span>Chưa có tài khoản? <a href="${pageContext.request.contextPath}/register" class="text-decoration-none" style="color: #ff6a00; font-weight: 600;">Đăng ký ngay</a></span>
+        <span>Chưa có tài khoản? <a href="register" class="text-decoration-none" style="color: #ff6a00; font-weight: 600;">Đăng ký ngay</a></span>
     </div>
 </div>
 
