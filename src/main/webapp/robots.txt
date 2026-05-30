@@ -6,4 +6,4 @@ Disallow: /booking/
 Disallow: /chat
 Disallow: /profile
 
-Sitemap: https://timtronhanh.com/sitemap.xml
+Sitemap: http://timtro.aiweb.id.vn/sitemap.xml
